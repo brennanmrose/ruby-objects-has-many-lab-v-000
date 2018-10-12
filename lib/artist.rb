@@ -24,13 +24,13 @@ class Artist
     @songs
   end
 
-  def self.song_count
-    count = 0 
-    @@all.each do |artist|
-      artist.songs.each do |post|
-        count += 1
-      end 
-    end 
-    count
-  end
+  # def self.song_count
+  #   count = 0 
+  #   @@all.each do |artist|
+  #     artist.songs.each do |post|
+  #       count += 1
+  #     end 
+  #   end 
+  #   count
+  # end
 end
