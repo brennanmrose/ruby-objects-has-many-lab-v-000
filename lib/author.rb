@@ -1,4 +1,5 @@
 class Author
+class Author
   attr_accessor :name, :posts, :author, :title
  
   @@all = []
